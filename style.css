@@ -1,0 +1,95 @@
+
+.topnav { 
+	background-color: rgb(20, 20, 42); 
+	overflow: hidden;
+	border: 01px solid black;
+   font-weight: bold;
+   margin-top: 50px;
+ }
+
+.topnav a {
+   float: left; 
+   color: rgb(219, 219, 242); 
+   text-align: center;
+   padding: 30px 70px; 
+   text-decoration: none;
+   font-size: 30px;
+}
+
+.topnav a:hover {
+   background-color: rgb(26, 22, 163);
+   color: white;
+}
+
+.topnav a:active {
+   background-color: blue;
+   color: white;
+}
+
+.bar {
+	
+}
+.bar a {
+   color: blue;
+   font-size:35px;
+
+}
+.bar a:hover {
+   background-color: black;
+   color: white;
+
+}
+body { 
+	background-color: white;
+}
+div { 
+	border-radius: 20px; 
+	text-align: left; 
+	border: 1px solid blue; 	
+	margin: 5px;
+	background-color: rgb(173, 184, 184);
+}
+
+#left-side{ 
+	background-color: rgb(147, 214, 255);
+	float:left; 
+	width:20%; 
+	min-height: 1163px; 
+	padding: 5px;
+}
+#middle-side{ 
+	background-color: rgb(162, 230, 251);
+	float:left; 
+	text-align:center;
+	width:43%; 
+	min-height: 600px;
+	padding: 5px;
+
+}
+#right-side{ 
+	background-color: rgb(154, 249, 225);
+	float:left;
+	
+	padding: 5px;
+
+}
+#bottom-side{ 
+	background-color: rgb(190, 181, 225);
+	float:left; 
+	width:75.5%; 
+	min-height: 520px;
+	padding: 5px;
+}
+#footer-down{ 
+	background-color: rgb(26, 26, 26);
+	clear:both; 
+	color: rgb(251, 250, 252);
+	min-height: 50px;
+}
+
+h2 { color: black; font-family: Arial, sans-serif; font-size: 45pt; text-align: center; }
+p { color: black; font-family: "Times New Roman", serif; font-size: 30pt; text-align: left; }
+.foot{
+	color: azure;
+}
+h5 { text-align: center; }
